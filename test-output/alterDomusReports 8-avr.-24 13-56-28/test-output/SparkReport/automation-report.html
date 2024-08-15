@@ -1,0 +1,1012 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 8, 2024 01:56:27 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Reg_Areteans__AlterDomusTT_QA</a><a class="dropdown-item" href="#">@RegressionFinal1</a><a class="dropdown-item" href="#">@Tansfer_COISL1_initiate_7121_2_QA</a><a class="dropdown-item" href="#">@Tansfer_COISL1_initiate_7121_1_QA</a><a class="dropdown-item" href="#">@test_QA1</a><a class="dropdown-item" href="#">@transferSecond_QA</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify that COIS L2 reject the Document to send to client and Case level Reslove</p>
+            <p class="text-sm">
+              <span>1:56:31 PM</span> / <span>00:04:20:997</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify that COIS L2 reject the Document to send to client and Case level Reslove</h5>
+<span class='badge badge-success'>04.08.2024 1:56:31 PM</span>
+<span class='badge badge-danger'>04.08.2024 2:00:52 PM</span>
+<span class='badge badge-default'>00:04:20:997</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User open the browser and navigate to FundServicesURL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters value in "Username" filed with "COIS-02-L1@alterdomus.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters value in "Password" filed with "Welcome@123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on "Sign_in"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user clicks on PortalNavHeader</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user clicks on "+" plusIcon</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should click on process name "Transfer"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should land on the "Initiation" screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And then click on the "Fund" dropdown and select the "Kemp Hickinbottom Co."</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then enter the transaction name as "Automation Testing"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User provides the Transfer effective date from calendar</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User provides the Target date from calendar</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should upload the "\attachments\document1.pdf"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should upload the second document "\attachments\document2.pdf"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User should click "Yes" on  frist toggle button "Banking details were collected for all investors"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user enters "By COISL1" and "By COISL1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The user clicks on the "Submit" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user can get the "Case ID"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User validate status "L2 - Initiation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on hamburger menu to the left and clicks on Log off button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="86"><span class="badge log fail-bg mr-2">Fail</span>Verify that user "<Username>" approve the case and "<status>"</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="87"><span class="badge log fail-bg mr-2">Fail</span>Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User open the browser and navigate to FundServicesURL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters value in "Username" filed with "COIS-03-l2@alterdomus.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user enters value in "Password" filed with "Welcome@123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When the user clicks on "Sign in" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then click on "FSNA Central Operations IS L2" workbasket</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user select the captured case id from the Process Id and click the filtered case</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user should land on the "Initiation" screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User can assign the Priority selected case using the option like "Assign Priority" from actions dropdown</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user selects "Approve"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user selects second "Reject"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters Reason for rejection "rejected the second doc"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then the user clicks on "Client" in "Assign review of the intake to?" filed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And the user clicks on the "Submit"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And User validate status "Client - Transfer Initiation"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Status']/following-sibling::div/div/div/span"}
+  (Session info: chrome=122.0.6261.131)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [425d0cb401143198c1259e150906a8b2, findElement {using=xpath, value=//label[text()='Status']/following-sibling::div/div/div/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.131, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\ADMSIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58945}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58945/devtoo..., se:cdpVersion: 122.0.6261.131, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 425d0cb401143198c1259e150906a8b2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.areteans.ataf.GeneralHelperSel.SeleniumFunc.xpath_Genericmethod_getElementText(SeleniumFunc.java:1177)
+	at com.areteans.ataf.PageObjects.InitiationL1Page.verifyCompletedStatus(InitiationL1Page.java:1450)
+	at com.areteans.ataf.stepDef.Initiation_L1_Stepdef.i_validate_status(Initiation_L1_Stepdef.java:583)
+	at ✽.User validate status "Client - Transfer Initiation"(classpath:QA/featurefiles-Transfer/Transfer_COISL!_Initate_assignPriority_7121_QA.feature:53)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.areteans.ataf.TestBase.TestBase.after(io.cucumber.java.Scenario)</span>
+      <div>screenshot
+          <div class="row mb-3"><div class="col-md-3">
+        <a href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAAOXCAYAAADFPlz2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9sG+eBN/ivIidiWidTKy2VSyHea1wlty/EJLhS5+LIvL2KSHxLOkbF1LelUt9Kjt63lO1dOTF2fbYWcqwXMuA9KLbeyhELKJEOSkS8rxrqoES814UpnC/iXWKxgGvq1ldpr35NYftG3F2vp83FVOJ07o8ZksPfM/xhyfL3AwiwyeHMM888v+Z55nmmRpIkCQ+wa9eu4dFHH0VdXR3q6uog/fGP+PTTT/H5559j/fPP8eXduxsdRCIiIiIiIiIiIiIiIiIiAEDttm0wKGObgiDgkbq6tO+3bVjINon19XXU1taitrYWn/7hD6j5fyN4/NplPLZ2E/j730L6/T9vdBA1efLS2kYHgYiIiIiIiIiIiIiIiIiq7O7du/jss8/w6aefIrq6ih07dqC+vh41NTUAB4DlAeCHampwO/YJ/otwALUX3wWkP+KPQDKSiIiIiIiIiIiIiIiIiIg2g23btuHxxx/H448/jm984xv4TzduIHrzJr75zW9i28MPcwD4iy++wN3Vv0O9/2e4+w9RPFRTAzy00aEiIiIiIiIiIiIiIiIiIirs4YcfRlNzM1aWl/H7P/wB9fX1HOr8fH0ddX/7Me7+55tIvA35wX4rMhERERERERERERERERHdT/7Fzp3451u3cPeLLzgA/Plv/xafX5qGBCT/iIiIiIiIiIiIiIiIiIjuFw8//DCeeOIJ3L59mwPADy39X5zyS0RERERERERERERERET3ta9u34719XUOANd8Et3oIBARERERERERERERERERlWX79u2Ix+McAP7jP/z9RgeBiIiIiIiIiIiIiIiIiKgsjzzyCO7evcsBYOnOZxsdBCIiIiIiIiIiIiIiIiKiinjgB4CJiIiIiIiIiIiIiIiIiLYKDgATEREREREREREREREREW0RHAAmIiIiIiIiIiIiIiIiItoiOABMRERERERERERERERERLRFcACYiIiIiIiIiIiIiIiIiGiL4AAwEREREREREREREREREdEWwQFgIiIiIiIiIiIiIiIiIqItggPAREREREREREREREREREQVcOfXIYif6vjBp0u4/bfxioaBA8BEREREREREREREREREROW69b/hD/+TC3d++u+0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RERERERERERERES0BYQXF/HQRgeCiIiIiIiIiIiIiIiIiIgqgwPARERERERERERERERERERbBAeAiYiIiIiIiIiIiIiIiIi2CA4AExERERERERERERERERFtERwAJiIiIiIiIiIiIiIiIiLaIjgATERERERERERERERERES0RXAAmIiIiIiIiIiIiIiIiIhoi+AAMBERERERERERERERERHRFsEBYCIiIiIiIiIiIiIiIiKiLYIDwEREREREREREREREREREWwQHgImIiIiIiIiIiIiIiIiItogHfgD4oce+ttFBICIiIiIiIiIiIiIiIiKqCA4Af/NfbHQQiIiIiIiIiIiIiIiIiIjKcveLL7Bt2zYOAEtG00YHgYiIiIiIiIiIiIiIiIioLJ999hkeffRRDgDjv/4+sG3bRoeCiIiIiIiIiIiIiIiIiKhkn332GQwcAAZqv/EU6px/ttHBICIiIiIiIiIiIiIiIiIqyZdffol//Md/hCAIHACura1FfPcebPsvd210UIiIiIiIiIiIiIiIiIiIdLvx29+i/oknUFtbywFgAPjK9scgdr2OWscB4CFGCRERERERERERERERERFtfl988QVWlpcRX1/HY489BgDgy28VX3/qm/jsG3+Gbbss+NrSAh5a+0/A3/8W0u//eaODRkREREREREREREREREQEALh79y4+++wzfPrpp1hbW0P9jh1oePLJ5Pc1kiRJGxrCDXbp0iU8/vjjeOyxx/DVr34VD9XU4LPPPsPdu3ex/vnn+PLu3Y0OIhERERERERERERERERERAKB22zYY6upQV1cHQRDwSF1d2vecAZzhkbo6fHX7dtTW1qKmpmajg0NEREREREREREREREREpBlfeEtEREREREREREREREREtEVwAJiIiIiIiIiIiIiIiIiIaIvgADARERERERERERERERER0RbBAWAiIiIiIiIiIiIiIiIioi2CA8BERERERERERERERERERFsEB4CJiIiIiIiIiIiIiIiIiLYIDgATEREREREREREREREREW0RHAAmIiIiIiIiIiIiIiIiItoiOABMRERERERERERERERERLRFcACYiIiIiIiIiIiIiIiIiGiL4AAwEREREREREREREREREdEWwQFgIiIiIiIiIiKi/5+9+w+1ur7jOP6+93h/pFedLLU2EmIGg2JS28DZBv0gV6zA9ZeTnEhj/rVk1PprIwb9EdHc/tqwJGq16R/SdbSmE92E0i3aL0Yj+sUkBzMrxbqp9+q9Z3/UWKO61zxHzz2vHg84fxzO5/P5vv9/8vkeAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQAD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AAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAV+RxnwAADvhJREFUAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjAAAAAAAABACAEYAAAAAAAAIIQADAAAAAAAABBCAAYAAAAAAAAIIQADAAAAAAAAhBCAAQAAAAAAAEIIwAAAAAAAAAAhBGAAAAAAAACAEAIwAAAAAAAAQAgBGAAAAAAAACCEAAwAAAAAAAAQQgAGAAAAAAAACCEAAwAAAAAAAIQQgAEAAAAAAABCCMAAAAAAAAAAIQRgAAAAAAAAgBACMAAAAAAAAEAIARgAAAAAAAAghAAMAAAAAAAAEEIABgAAAAAAAAghAAMAAAAAAACEEIABAAAAAAAAQgjAAAAAAAAAACEEYAAAAAAAAIAQAjD/ae/eUaLZwjCM7m4vmAiKQWeKgZmJRqaC83EKJuIUHI3TEMEJGAimCtJ/dIRzCU5W1Y9rwZe/+cOuAgAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiBCAAQAAAAAAACIEYAAAAAAAAIAIARgAAAAAAAAgQgAGAAAAAAAAiFis1+v11COmdHV1Nba3t39uuVyOxWLxcwAAAAAAwDRWq9VYr9fj5ORkXFxcjJubm6knAcyeACwAAwAAAADA7O3u7o7Dw8Nxd3c3jo6Opp4DMFs+AQ0AAAAAAMze19fXeHt7G7e3t+P19XXqOQCzJQADAAAAAAAb4+vra9zd3Y339/eppwDMkgAMAAAAAABslL8iMAD/JgADAAAAAAAb5/Pzczw9PU09A2B2BGAAAAAAAGDjfHx8jOfn56lnAMyOAAwAAAAAAGykl5eXqScAzI4ADAAAAAAAbKTv7++pJwDMjgAMAAAAAABspK2traknAMyOAAwAAAAAAGyks7OzqScAzI4ADAAAAAAAbJy9vb1xfn4+9QyA2fn1AXixWPwcAAAAAACwGfb398f19fXUMwBm59cH4P8iBgMAAAAAwHzt7OyM+/v7qWcAzNKvD8DL5fJvr4DFXwAAAAAAmK/lcjkeHh7GwcHB1FMAZkkAXi5/IjAAAAAAADBPOzs7Y7VajcfHx3F8fDz1HIDZ2p56wNT++QIYAAAAAACYh9VqNdbr9Tg9PR2Xl5f++QvwP/wBfJKDfYdHX3AAAAAASUVORK5CYII=" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+        
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And the user clicks on hamburger menu to the left and clicks on Log off button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:00:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='142'>And User validate status "Client - Transfer Initiation"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation".And User validate status "Client - Transfer Initiation"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@Reg_Areteans__AlterDomusTT_QA</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Reg_Areteans__AlterDomusTT_QA</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>Verify that user "<Username>" approve the case and "<status>"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" approve the case and "<status>"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='87'>Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@RegressionFinal1</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RegressionFinal1</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>Verify that user "<Username>" approve the case and "<status>"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" approve the case and "<status>"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='87'>Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@Tansfer_COISL1_initiate_7121_2_QA</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tansfer_COISL1_initiate_7121_2_QA</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>Verify that user "<Username>" approve the case and "<status>"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" approve the case and "<status>"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='87'>Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@Tansfer_COISL1_initiate_7121_1_QA</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tansfer_COISL1_initiate_7121_1_QA</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@test_QA1</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@test_QA1</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>Verify that user "<Username>" approve the case and "<status>"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" approve the case and "<status>"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='87'>Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@transferSecond_QA</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@transferSecond_QA</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" initiate a Transfer case for "<Fund>" and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:56:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-02-L1@alterdomus.com" initiate a Transfer case for "Kemp Hickinbottom Co." and other required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>Verify that user "<Username>" approve the case and "<status>"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "<Username>" approve the case and "<status>"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:58:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='87'>Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</a>
+<div class="">
+<span class="badge badge-default">Verify that COIS L2 reject the Document to send to client and Case level Reslove.Verify that user "COIS-03-l2@alterdomus.com" approve the case and "Client - Transfer Initiation"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 8, 2024 01:56:27 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 8, 2024 02:00:52 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='50%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='94%'><b>34</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> steps failed,
+<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify that COIS L2 reject the Document to send to client and Case level Reslove":260.997
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Reg_Areteans__AlterDomusTT_QA</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@RegressionFinal1</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@Tansfer_COISL1_initiate_7121_2_QA</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Tansfer_COISL1_initiate_7121_1_QA</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@test_QA1</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@transferSecond_QA</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 34,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 1,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

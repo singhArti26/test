@@ -1,0 +1,289 @@
+Step 1:
+Add feature file step from common feature steps based on the application workflow
+and provide the locater name with in the feature file step
+
+
+Step 2:
+step defination:
+Most of the step defination is available in common step defination if anything is needed as a new step please add the step defination
+
+
+Step 3:
+Keep Locators in properties file(properties file keyname(locatorname) verify whether it is same with name present in a feature file steps)
+
+************************************************************************************************
+common feature file Step:
+
+i)text Box or Text area:
+
+   #Enter value into (textbox or textarea)
+    When the user enters value in "usernametextbox" filed with "<Username>"
+
+    #Get the attribute value
+    Then the user gets the inputdata "usernametextbox" and "value"
+
+    #getTextData of any element 
+    Then the user gets text data of "CreateButton"
+
+    #remove the data from text box or text area
+    Then the user removes the existing data in "usernametextbox"  
+
+*************************************************************************************************
+ii)button:
+    #perform click operation
+    And the user clicks on "CreateButton"
+
+    #perform submit the request(to perform this type attribute must be submit)
+    And the user performs submit request on "CreateButton"
+
+****************************************************************************************************
+
+iii)link, checkbox and radio button:
+
+    #perform click operation
+    And the user click on "CreateButton"
+
+    #Verify whether element isdisplayed(any element)
+    Then the user verifies whether element ispresent "usernametextbox" 
+
+    #Verify whether element isenabled(button, checkbox, radio button and link etc...)
+    Then the user verifies whether element isenabled "CreateButton" 
+
+    #Verify whether element isSelected(radio button or checkbox)
+    Then the user verifies whether element isSelected "element"
+
+**********************************************************************************************************
+
+Navigation Methods:
+    #Navigate to any particular URL
+    Then the user navigates to any particular URL "URL"
+
+    #Navigate back
+    Then the user navigates back
+
+    #Navigate forward
+    Then the user navigates forward
+
+    #refresh the current webpage
+    Then the user refreshes the current webpage
+
+************************************************************************************************************
+WebDriver Methods:
+
+    #Get the title of webpage
+    Then the user gets the pagetitle
+    
+    #Get current URL of webpage
+    Then the user gets the currentURL
+
+
+***********************************************************************************************************
+Alert:       
+
+		#Alert accept
+		Then the user accepts the alert
+
+		#Alert dismiss
+		Then the user dismisses the alert
+
+		#get the text of alert
+		Then the user gets the alert text
+
+		#pass value to the alert
+		Then the user provides input data to alert "inputvalue"
+	
+**************************************************************************************************************
+Frame:  
+            #switch the frame based on frame index
+		Then the user switches to frameByIndex "index"
+
+		#switch the frame based on id or name
+		Then the user switches to frameByIdorName "idorname"
+
+		#switch the frame based on element
+		Then the user switches to frameByElement "element"
+
+		#exit from the frame
+		Then the user moves out from the frame
+
+
+***************************************************************************************************************
+DropDown selection:
+
+    #User selects dropdown value based on it's index
+    And the user selects the dropdown value "cars" ByIndex "2"
+
+    #User selects dropdown value based on it's visibleText
+    And the user selects the dropdown value "cars" ByVisibleText "Audi"
+
+    #User selects dropdown value based on it's Value attribute
+    And the user selects the dropdown value "cars" ByValue "saab"
+
+
+***************************************************************************************************************
+Multiple Window Handling:
+
+		#switchToWindowByIndex(provide relavent index)
+		Then the user switches window ByIndex "2"
+		#switchToWindowByTitle(provide relavent title)
+		Then the user switches window ByTitle "CrossBrowserTesting App"
+		#switchToWindowByURL(provide relavent URL)
+		Then the user switches window ByURL "https://app.crossbrowsertesting.com/login"
+
+
+
+*****************************************************************************************************************
+
+Actions Class Concept:
+		
+		#user wants to performLeftClick by using actions classMethod
+		Then the user does leftClick on "Gender"
+
+            #user wants to performRightClick by using actions classMethod
+		Then the user does rightClick on "element"
+
+            #user wants to performdoubleClick by using actions classMethod
+		Then the user does doubleClick on "element"
+
+            #user wants to move movetoElement by using actions classMethod
+		Then the user moves to "element"
+
+            #user wants to perform dragAndDrop by using actions classMethod
+		Then the user drags the "element" and drops the "element"
+
+            #user wants to perform clickAndHold by using actions classMethod
+		Then the user does clickAndHold the "element"
+
+            #user wants to perform sendKeys by using actions classMethod 
+		Then the user does enter value in "MobileNumber" filed with "9111111111"
+
+
+
+******************************************************************************************************************
+
+Assertions steps:
+		
+		#Verify title of the webpage
+		Then the user verifies the pagetitle "title"
+
+		#Verify currentURL of the webpage
+		Then the user verifies the currentURL "CurrentURL"
+		
+		#Verify whether element is displayed
+		Then the user verifies the element is displayed "element"
+
+		#Verify whether element is enabled
+		Then the user verifies the element is enabled "element"
+
+		#Verify whether element is selected
+		Then the user verifies the element is selected "element"
+
+		#Verify alert text
+		Then the user verifies the alert text "AlertInfo"
+
+		#Verify actual with expected
+		Then the user verifies expected data of "elementKey" is same as actual data "actualDataKey"
+
+		#verify attribute value
+		Then the user verifies the element "element" is "value" of attribute "actualvalue"
+
+		#verification to see the failure assert By using assertAll 
+		And the user validates all the verification
+
+
+**********************************************************************************************************************
+
+
+
+
+
+
+
+
+    
+Scenario Outline: Property ID - Decision | Coverage Fix Stage
+    Given User open the browser and navigate to particular application URL
+    #Enter any value into textox or textarea
+    When the user enters a value in "usernametextbox" filed with "<Username>"
+    #Get the title of webpage
+    Then the user gets the pagetitle
+    #Get current URL of webpage
+    Then the user gets the currentURL
+    #Get the attribute value
+    Then the user gets the inputdata "usernametextbox" and "value"
+    #getTextData of any element 
+    Then the user gets text data of "CreateButton"
+     #remove the data from text box or text area
+   Then the user removes the existing data in "usernametextbox" 
+    #Navigate back
+    Then the user navigates back
+    #Navigate forward
+    Then the user navigates forward
+    #refresh the current webpage
+    Then the user refreshes the current webpage
+		#Alert accept
+		Then the user accepts the alert
+		#Alert dismiss
+		Then the user dismisses the alert
+		#get the text of alert
+		Then the user gets the alert text
+		#pass value to the alert
+		Then the user provides input data to alert "inputvalue"
+		#switch the frame based on frame index
+		Then the user switches to frameByIndex "index"
+		#switch the frame based on id or name
+		Then the user switches to frameByIdorName "idorname"
+		#switch the frame based on element
+		Then the user switches to frameByElement "element"
+		#exit from the frame
+		Then the user moves out from the frame
+	
+    #Then the user verify "CWBHomePageHeader" is "ClaimsWorkbench"
+    Examples: 
+      | Username  | Password    |
+      | perf@test | Rules123456 |
+
+
+    When I enter username as "<username>"
+    And I enter password as "<password>"
+    And I click on Login button
+    And Initiate a Payment Request
+    Then Enter the basic Information "<Cluster>" "<Country>" "<compCode>" "<RequestType>" "<PoContact>" "<Invoice>" "<Document>" "<lineManager>" "<Reason>"
+    Then Enter Vendor and invoice details "<Currency>" "<amount>" "<ponumber>" "<date>" "<vendorName>" "<vendorNum>"
+    And Enter Payment details "<bankName>" "<bankCode>" "<accountNum>" "<swiftCode>" "<iban>"
+    Then Print CaseID and verify Status
+    
+
+    Examples: 
+      | username  | password    | Cluster | Country | compCode | RequestType          | PoContact | Invoice | Document | lineManager        | Reason | Currency | amount | ponumber | date       | vendorName | vendorNum | bankName | bankCode | accountNum | swiftCode | iban |
+      | perf@test | Rules123456 | Europe  | Austria |     2258 | Down Payment Advance | Yes       | Yes     | Yes      | Jonas@Unilever.com | reason | USD      |   1234 |   123456 | 12/12/2022 | areteans   | test      | bank     |     1234 |     123456 | ST-123    | 1234 |
+
+     
+
+#Then the user click on "linktext"
+		#Then the user switches window ByIndex "2"
+		#Then the user switches window ByTitle "CrossBrowserTesting App"
+		#Then the user switches window ByURL "https://app.crossbrowsertesting.com/login"
+		Then the user does enter value in "MobileNumber" filed with "9111111111"
+		When the user enters value in "MobileNumber" filed with "9111111111"
+		When the user enters value in "adharNumber" filed with "31956692595"
+		And the user selects the dropdown value "dropdown" ByVisibleText "Driving License"
+		Then the user verifies expected data of "application" is same as actual data "Provide your Income Details"
+
+
+Gender = id>rblGender_1
+MobileNumber = id>txtMobNo
+adharNumber = id>txtAadhaarNo
+passwordtextbox= id>inputPassword
+CreateButton= classname>loginButtonText
+collectionname=xpath>//span[text()='Collect Basic Information']
+stbutton=xpath>//button[@title='security test']
+logout=xpath>//span[text()='Log off']
+cars=id>cars
+LoginButton = partiallinktext>Login
+linktext= linktext>CrossBrowserTesting
+dropdown =id>ddlPOI
+application=xpath>//h3[text()='Provide your Income Details']
+#user-name
+#password
+
